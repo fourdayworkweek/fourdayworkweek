@@ -1,0 +1,32 @@
+h1{
+    color:white;
+    background-color:navy;
+    text-align: center;
+    font-size: 48px;
+    height: 5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#one{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#two{
+    width: 70%;
+}
+
+a.story{
+    font-size: 24px;
+    color: white;
+    margin: 5%;
+    background-color: navy;
+    text-decoration: none; 
+
+}
+
+div.menu{
+    background-color: navy;
+    height: 20%;
+}
