@@ -16,8 +16,9 @@ h2{
 }
 
 h3{
-    color:navy;
-    font-size: 25px;
+    color:black;
+    text-align: left;
+    font-size: 28px;
     height: 5%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
