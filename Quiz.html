@@ -12,7 +12,7 @@
     
         <p>
         <script>
-            // Define the questions and answers
+            
             var questions = [
                 {
                     question: "What was the name of the company we profiled for this project?",
@@ -111,18 +111,18 @@
                     },
                     correctAnswer: "a"
                 },
-                // add more questions here
+                
             ];
     
-            // Create the quiz
+            
             function createQuiz(){
                 var output = [];
     
-                // for each question...
+                
                 questions.forEach((currentQuestion, questionNumber) => {
                     var answers = [];
     
-                    // ...add an HTML radio button for each possible answer
+                  
                     for(letter in currentQuestion.answers){
                         answers.push(
                             `<label>
@@ -140,33 +140,33 @@
                     );
                 });
     
-                 // Combine the output list into one string of HTML and display on the page
+                 
                 document.getElementById('quiz').innerHTML = output.join('');
             }
     
-            // Check the answers
+            
             function submitAnswers(){
                 var score = 0;
                 var answers = document.querySelectorAll('.answers');
     
-                // for each question...
+               
                 questions.forEach((currentQuestion, questionNumber) => {
                     var selectedAnswer = answers[questionNumber].querySelector('input[name=question'+questionNumber+']:checked').value;
     
-                    // if the selected answer is correct...
+                   
                     if(selectedAnswer === currentQuestion.correctAnswer){
                         score++;
-                        // color the correct answer green
+                        
                         answers[questionNumber].style.color = 'lightgreen';
                     }
-                    // if the selected answer is wrong...
+                    
                     else{
-                        // color the wrong answer red
+                        
                         answers[questionNumber].style.color = 'red';
                     }
                 });
     
-                // show the score on the page
+                
                 document.getElementById('quiz').innerHTML = `You scored ${score} out of ${questions.length}`;
             }
     
