@@ -15,9 +15,18 @@ h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-p{
+h3{
     color:navy;
     font-size: 25px;
     height: 5%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p{
+    color:black;
+    text-align: left;
+    font-size: 25px;
+    height: 5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
