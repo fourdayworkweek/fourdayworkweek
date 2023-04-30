@@ -15,6 +15,14 @@ h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+script{
+    color: black;
+    font-size: 28px;
+    height: 5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
 p{
     color: black;
     font-size: 28px;
