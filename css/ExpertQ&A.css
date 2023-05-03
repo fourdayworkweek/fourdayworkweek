@@ -3,7 +3,7 @@ h1{
     background-color:navy;
     text-align: center;
     font-size: 48px;
-    height: 10%;
+    height: 19%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 h2{
@@ -26,7 +26,6 @@ p{
     font-size: 28px;
     height: 5%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
 }
 
 div.menu{
@@ -45,8 +44,8 @@ ul li {
     display: inline-block;
     float: left;
     line-height: 100px;
-
 }
+
 ul li a {
     display: block;
     text-decoration: none;
