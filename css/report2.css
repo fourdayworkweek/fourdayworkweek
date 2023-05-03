@@ -5,20 +5,20 @@ h1{
     font-size: 48px;
     height: 5%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
 }
 
 h2{
     color:navy;
-    font-size: 30px;
+    text-align: center;
+    font-size: 40px;
     height: 5%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 h3{
-    color:black;
+    color:navy;
     text-align: left;
-    font-size: 28px;
+    font-size: 30px;
     height: 5%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -26,9 +26,25 @@ h3{
 p{
     color:black;
     text-align: left;
-    font-size: 28px;
-    height: 5%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+#one{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#two{
+    width: 70%;
+}
+
+a.story{
+    font-size: 24px;
+    color: white;
+    margin: 5%;
+    background-color: navy;
+    text-decoration: none; 
 
 }
 
