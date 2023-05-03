@@ -45,7 +45,6 @@ a.story{
     margin: 5%;
     background-color: navy;
     text-decoration: none; 
-
 }
 
 div.menu{
@@ -58,16 +57,12 @@ nav {
     height: 100px;
     background-color: navy;
 }
-ul {
 
-
-}
 ul li {
     list-style: none;
     display: inline-block;
     float: left;
     line-height: 100px;
-
 }
 
 ul li a {
@@ -77,6 +72,4 @@ ul li a {
     font-family: 'Times New Roman', Times, serif;
     color: white;
     padding: 0 20px; 
-
-
 }

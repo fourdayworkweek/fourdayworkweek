@@ -27,9 +27,6 @@ p{
     color:black;
     text-align: left;
     font-size: 25px;
-    height: 5%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
 }
 
 #one{
@@ -70,7 +67,6 @@ ul li {
     display: inline-block;
     float: left;
     line-height: 100px;
-
 }
 
 ul li a {
@@ -80,6 +76,4 @@ ul li a {
     font-family: 'Times New Roman', Times, serif;
     color: white;
     padding: 0 20px; 
-
-
 }
