@@ -3,7 +3,7 @@ h1{
     background-color:navy;
     text-align: center;
     font-size: 48px;
-    height: 19%;
+    height: 30%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 h2{
@@ -27,6 +27,7 @@ p{
     height: 5%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 div.menu{
     background-color: navy;
     height: 20%;
